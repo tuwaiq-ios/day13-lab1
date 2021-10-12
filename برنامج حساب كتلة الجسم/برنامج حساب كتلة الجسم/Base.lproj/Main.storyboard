@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="icq-6A-ez9">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--حساب كتلة الجسم-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="VC2" customModule="برنامج_حساب_كتلة_الجسم" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الطول(cm)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ww-zV-p7c">
+                                <rect key="frame" x="42" y="310" width="76" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الوزن(gk  )" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHH-w4-IFj">
+                                <rect key="frame" x="294" y="309" width="73" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K2I-70-H54">
+                                <rect key="frame" x="42" y="362" width="102" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="102" id="9a0-ZV-eSL"/>
+                                    <constraint firstAttribute="height" constant="34" id="b7r-hr-ASe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3HB-6D-W9j">
+                                <rect key="frame" x="283" y="362" width="93" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="93" id="WEe-12-8K8"/>
+                                    <constraint firstAttribute="height" constant="34" id="xwQ-Lt-huc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pz4-h3-6WU">
+                                <rect key="frame" x="157" y="413" width="100.5" height="70"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="النتيجه">
+                                    <fontDescription key="titleFontDescription" type="italicSystem" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="computeBMI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HXz-93-RFs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYV-dv-YWx">
+                                <rect key="frame" x="140" y="554.5" width="121" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image2" translatesAutoresizingMaskIntoConstraints="NO" id="30k-fp-ltB">
+                                <rect key="frame" x="87" y="109" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="0bx-5d-eTn"/>
+                                    <constraint firstAttribute="height" constant="128" id="JHR-l7-bxe"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.76667362449999998" green="0.82298547030000002" blue="0.48620808119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="GYV-dv-YWx" firstAttribute="top" secondItem="pz4-h3-6WU" secondAttribute="bottom" constant="71.5" id="1Aq-hH-rpZ"/>
+                            <constraint firstItem="wHH-w4-IFj" firstAttribute="top" secondItem="30k-fp-ltB" secondAttribute="bottom" constant="72" id="2io-23-rig"/>
+                            <constraint firstItem="30k-fp-ltB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="5fv-SM-eSq"/>
+                            <constraint firstItem="wHH-w4-IFj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="221" id="8mi-eh-ZSU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="K2I-70-H54" secondAttribute="bottom" constant="466" id="CKe-jE-2Pj"/>
+                            <constraint firstItem="GYV-dv-YWx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="GWa-tg-kRd"/>
+                            <constraint firstItem="K2I-70-H54" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="L6u-0l-2dN"/>
+                            <constraint firstItem="3ww-zV-p7c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="222" id="Ngo-4s-lGL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="30k-fp-ltB" secondAttribute="trailing" constant="87" id="RkS-0k-xsD"/>
+                            <constraint firstItem="3ww-zV-p7c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="Wtr-qm-Wpf"/>
+                            <constraint firstItem="30k-fp-ltB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="ZAo-Gv-pLO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wHH-w4-IFj" secondAttribute="trailing" constant="47" id="d4r-Wh-0OL"/>
+                            <constraint firstItem="3HB-6D-W9j" firstAttribute="leading" secondItem="K2I-70-H54" secondAttribute="trailing" constant="139" id="jl6-xx-Wk3"/>
+                            <constraint firstItem="3HB-6D-W9j" firstAttribute="top" secondItem="wHH-w4-IFj" secondAttribute="bottom" constant="32" id="khG-Tu-iZm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3HB-6D-W9j" secondAttribute="bottom" constant="466" id="kpp-XX-hwA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GYV-dv-YWx" secondAttribute="bottom" constant="287" id="lYS-6J-WTl"/>
+                            <constraint firstItem="pz4-h3-6WU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qyI-ub-ZkZ"/>
+                            <constraint firstItem="K2I-70-H54" firstAttribute="top" secondItem="3ww-zV-p7c" secondAttribute="bottom" constant="31" id="r13-Do-9YR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GYV-dv-YWx" secondAttribute="trailing" constant="153" id="tp7-wg-one"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3HB-6D-W9j" secondAttribute="trailing" constant="38" id="xlE-2Q-58H"/>
+                            <constraint firstItem="pz4-h3-6WU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yaE-ey-3RD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="حساب كتلة الجسم" id="XSI-Ma-rLL"/>
+                    <connections>
+                        <outlet property="htf" destination="K2I-70-H54" id="LyZ-ZC-2cj"/>
+                        <outlet property="resultLable" destination="GYV-dv-YWx" id="twl-gK-dPa"/>
+                        <outlet property="wet" destination="3HB-6D-W9j" id="ZLR-bO-LQE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="886.95652173913049" y="65.625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OWj-FE-qfw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="icq-6A-ez9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OuY-mH-wdC">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="CBu-Dy-duP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NBd-mT-T52" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="65.625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image2" width="920" height="884"/>
+    </resources>
+</document>
