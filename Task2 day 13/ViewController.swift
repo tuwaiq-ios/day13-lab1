@@ -27,8 +27,8 @@ class ViewController: UIViewController {
         let h = Double(height.text!)
         let w = Double(weight.text!)
         let bmiM = BMI(height:h! , weight:w!)
-        labelBMI.text = String(bmiM.bmi())
+        labelBMI.text = "\(bmiM.bmi())"
     }
-    
+
 }
 

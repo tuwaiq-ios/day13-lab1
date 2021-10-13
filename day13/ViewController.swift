@@ -25,7 +25,7 @@ class ViewController: UIViewController , UITextFieldDelegate {
         }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        tf.resignFirstResponder()
+        tf.resignFirstResponder() // يرجع الكيبورد
         return true
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
