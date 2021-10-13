@@ -16,6 +16,6 @@ class BMIModel {
         self.weight = weight
 }
     func bmi() -> Double {
-        return weight/(height*height)
+        return weight/(height*height)*10000
     }
     }
