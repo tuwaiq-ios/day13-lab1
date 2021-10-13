@@ -23,7 +23,7 @@ class VC2 : UIViewController, UITextFieldDelegate
       }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
          htf.resignFirstResponder()
-       
+         WText.resignFirstResponder()
         return true
     }
     @IBAction func computerBMI (sender:Any)
