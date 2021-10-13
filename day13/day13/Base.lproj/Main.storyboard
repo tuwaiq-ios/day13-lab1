@@ -114,7 +114,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="your BMI is ...." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HoQ-RU-e6l">
-                                <rect key="frame" x="148" y="491.5" width="118" height="20.5"/>
+                                <rect key="frame" x="100" y="491.5" width="214" height="20.5"/>
                                 <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="systemGray2Color"/>
@@ -148,7 +148,7 @@
                             <constraint firstItem="GWu-25-pab" firstAttribute="trailing" secondItem="LtZ-C3-O7V" secondAttribute="trailing" constant="20" id="1ru-8c-mzd"/>
                             <constraint firstItem="Dhi-7V-Bzi" firstAttribute="leading" secondItem="GWu-25-pab" secondAttribute="leading" constant="121" id="4NK-E9-808"/>
                             <constraint firstItem="6sY-yh-nYk" firstAttribute="top" secondItem="vHV-2i-bDc" secondAttribute="bottom" constant="21" id="4TM-vD-GNN"/>
-                            <constraint firstItem="HoQ-RU-e6l" firstAttribute="leading" secondItem="GWu-25-pab" secondAttribute="leading" constant="148" id="7eP-x4-qZh"/>
+                            <constraint firstItem="HoQ-RU-e6l" firstAttribute="leading" secondItem="GWu-25-pab" secondAttribute="leading" constant="100" id="7eP-x4-qZh"/>
                             <constraint firstItem="Dhi-7V-Bzi" firstAttribute="top" secondItem="6sY-yh-nYk" secondAttribute="bottom" constant="21" id="Cuk-Ba-8Tb"/>
                             <constraint firstItem="LtZ-C3-O7V" firstAttribute="top" secondItem="Lny-a7-uEM" secondAttribute="bottom" constant="8" symbolic="YES" id="E0w-zf-ja3"/>
                             <constraint firstItem="GWu-25-pab" firstAttribute="bottom" secondItem="HoQ-RU-e6l" secondAttribute="bottom" constant="350" id="GiH-en-iaf"/>
@@ -170,7 +170,7 @@
                             <constraint firstItem="Lny-a7-uEM" firstAttribute="top" secondItem="xXN-Al-lQv" secondAttribute="bottom" constant="94" id="lHc-gf-0gX"/>
                             <constraint firstItem="Lny-a7-uEM" firstAttribute="leading" secondItem="vHV-2i-bDc" secondAttribute="trailing" constant="134" id="taV-PE-hGa"/>
                             <constraint firstItem="K9z-BI-h2O" firstAttribute="top" secondItem="upR-Su-05e" secondAttribute="bottom" constant="91" id="xSW-gQ-Syv"/>
-                            <constraint firstItem="GWu-25-pab" firstAttribute="trailing" secondItem="HoQ-RU-e6l" secondAttribute="trailing" constant="148" id="xtf-FV-29w"/>
+                            <constraint firstItem="GWu-25-pab" firstAttribute="trailing" secondItem="HoQ-RU-e6l" secondAttribute="trailing" constant="100" id="xtf-FV-29w"/>
                         </constraints>
                     </view>
                     <connections>

@@ -13,11 +13,9 @@ class BMI{
     init (height:Double,weight:Double){
         self.height=height
         self.weight=weight
-
     }
         func bmi()->Double {
-        return weight/(height*height)
-        
+        return weight/(height*height)*10000
     }
 }
 class BmiLink:UIViewController{
