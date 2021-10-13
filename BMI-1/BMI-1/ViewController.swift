@@ -11,7 +11,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var weightt: UITextField!
     
-    
     @IBOutlet weak var heightt: UITextField!
     
     @IBOutlet weak var lebl: UILabel!

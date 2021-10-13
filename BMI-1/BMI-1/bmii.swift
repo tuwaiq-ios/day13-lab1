@@ -17,7 +17,8 @@ class bmii {
     }
     
     func bmi()->Double {
-        return wi/(hi*hi) * 10000
+        return wi/(hi*hi) * 1000
+        
     }
     
 }
