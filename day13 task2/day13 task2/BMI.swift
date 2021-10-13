@@ -20,7 +20,7 @@ class BMI {
     
     func bmi()->Double {
         
-        return weight/(heitght*heitght)
+        return weight/(heitght*heitght) * 10000
     }
 }
 
