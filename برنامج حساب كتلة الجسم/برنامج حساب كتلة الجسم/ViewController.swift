@@ -23,6 +23,9 @@ class VC2 : UIViewController,UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        wet.delegate = self
+        htf.delegate = self 
         // Do any additional setup after loading the view.
     }
     override func didReceiveMemoryWarning() {

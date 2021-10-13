@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F2131BB2716184E00CB46F4 /* BMIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2131BA2716184E00CB46F4 /* BMIModel.swift */; };
-		1F2131BD2716189500CB46F4 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2131BC2716189500CB46F4 /* VC2.swift */; };
 		1F659D832715AE7C0070BA17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F659D822715AE7C0070BA17 /* AppDelegate.swift */; };
 		1F659D852715AE7C0070BA17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F659D842715AE7C0070BA17 /* SceneDelegate.swift */; };
 		1F659D872715AE7C0070BA17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F659D862715AE7C0070BA17 /* ViewController.swift */; };
@@ -19,8 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F2131BA2716184E00CB46F4 /* BMIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIModel.swift; sourceTree = "<group>"; };
-		1F2131BC2716189500CB46F4 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
 		1F659D7F2715AE7C0070BA17 /* day13airport..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = day13airport..app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F659D822715AE7C0070BA17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F659D842715AE7C0070BA17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,8 +66,6 @@
 				1F659D8B2715AE7E0070BA17 /* Assets.xcassets */,
 				1F659D8D2715AE7E0070BA17 /* LaunchScreen.storyboard */,
 				1F659D902715AE7E0070BA17 /* Info.plist */,
-				1F2131BA2716184E00CB46F4 /* BMIModel.swift */,
-				1F2131BC2716189500CB46F4 /* VC2.swift */,
 			);
 			path = day13airport.;
 			sourceTree = "<group>";
@@ -147,10 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F2131BB2716184E00CB46F4 /* BMIModel.swift in Sources */,
 				1F659D872715AE7C0070BA17 /* ViewController.swift in Sources */,
 				1F659D832715AE7C0070BA17 /* AppDelegate.swift in Sources */,
-				1F2131BD2716189500CB46F4 /* VC2.swift in Sources */,
 				1F659D852715AE7C0070BA17 /* SceneDelegate.swift in Sources */,
 				1F659D972715BEE70070BA17 /* ShowName.swift in Sources */,
 			);
