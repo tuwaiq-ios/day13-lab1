@@ -15,7 +15,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
      
 
     @IBAction func buttonPressed(_ sender: Any) {
-        let Ahmed = field.text!
+        let Ahmed = field.text ?? ""
         
         performSegue(withIdentifier: "123", sender: Ahmed)
     }
@@ -26,7 +26,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.prepare(for: segue, sender: sender)
         let Ah = segue.destination as? Cell
         
-        Ah?.AA = sender as? UILabel
+        Ah?.cell1 = sender as? String
     }
     
     
@@ -64,8 +64,9 @@ class Cell: UIViewController {
 
     @IBOutlet weak var AA: UILabel!
     
-    var cell1 = ""
-        override func viewDidLoad() {
+    var cell1: String? = ""
+    
+    override func viewDidLoad() {
         super.viewDidLoad()
             AA.text = cell1
     }
