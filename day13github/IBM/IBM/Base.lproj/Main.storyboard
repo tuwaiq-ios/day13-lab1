@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IBM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UJF-md-j5l">
+                                <rect key="frame" x="101" y="197" width="212" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bnX-8v-Ssj">
+                                <rect key="frame" x="111" y="271" width="192" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbD-q5-LZC">
+                                <rect key="frame" x="135" y="357" width="122" height="73"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="pNi-uY-iu5"/>
+                                    <constraint firstAttribute="height" constant="73" id="yTV-V6-XdJ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Calculate">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MDs-fA-Zkx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="IBM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGz-Xk-DdJ">
+                                <rect key="frame" x="116" y="461" width="160" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.39334538403576252" green="0.79835724830627441" blue="0.77360817759470735" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="UJF-md-j5l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="101" id="24S-Dh-6by"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UJF-md-j5l" secondAttribute="trailing" constant="101" id="9ub-85-Bdm"/>
+                            <constraint firstItem="UJF-md-j5l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="153" id="FyQ-7p-mFH"/>
+                            <constraint firstItem="bnX-8v-Ssj" firstAttribute="top" secondItem="UJF-md-j5l" secondAttribute="bottom" constant="40" id="T6c-OL-9IF"/>
+                            <constraint firstItem="bnX-8v-Ssj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="111" id="aeL-wk-tIf"/>
+                            <constraint firstItem="jbD-q5-LZC" firstAttribute="centerX" secondItem="ZGz-Xk-DdJ" secondAttribute="centerX" id="eej-wD-ww2"/>
+                            <constraint firstItem="ZGz-Xk-DdJ" firstAttribute="top" secondItem="jbD-q5-LZC" secondAttribute="bottom" constant="31" id="iSN-Cu-ZZ7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bnX-8v-Ssj" secondAttribute="trailing" constant="111" id="q55-6K-HaH"/>
+                            <constraint firstItem="jbD-q5-LZC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="135" id="t2r-An-4lA"/>
+                            <constraint firstItem="jbD-q5-LZC" firstAttribute="top" secondItem="bnX-8v-Ssj" secondAttribute="bottom" constant="52" id="zjf-wp-Ei1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="height" destination="UJF-md-j5l" id="X1g-BQ-K45"/>
+                        <outlet property="labelIBM" destination="ZGz-Xk-DdJ" id="gJA-iz-hMn"/>
+                        <outlet property="weight" destination="bnX-8v-Ssj" id="Qa3-u9-bZf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="42.028985507246382" y="91.741071428571431"/>
+        </scene>
+    </scenes>
+</document>
